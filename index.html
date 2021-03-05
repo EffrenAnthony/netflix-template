@@ -7,6 +7,7 @@
   <meta name='description' content='Esta es mi página web'>
   <meta name='author' content='Anthony'>
   <meta name='keywords' content='pagina, titulo, articulos, primera web, web'>
+  <link rel="icon" href="./assets/favicon.ico">
   <title>Document</title>
 </head>
 <body> 
@@ -20,6 +21,15 @@
     <h6 class="clase__titulo">Hola</h6>
     <p>parrafo</p>
   </div>
+  <h1>Tags de texto</h1>
+  <p>
+    Lorem ipsum dolor sit <b>palabra negra</b> <small>palabra pequeña</small> amet consectetur adipisicing elit. Adipisci optio rerum nisi 
+    harum veritatis! <u>subrayado</u>  <strong>palabra estrong</strong> Laboriosam, inventore? Natus temporibus voluptates pariatur quaerat
+    ratione enim 
+    <!-- <p>etiqueta p</p>   -->
+    laboriosam, neque deserunt laborum corporis soluta.
+  </p>
+  <span>este es un span</span>
   <header>
     <img src="./assets/Netflix-Logo.png" alt="netflix logo" height="100px"/>
   </header>
@@ -118,6 +128,132 @@
     <input type="url" name="" id="">
     <button type="submit">Submit</button>
   </form>
-  
+  <h1>Tablas</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th colspan="2">Apellido</th>
+        <!-- <th>Edad</th> -->
+        <th>Correo</th>
+      </tr>
+    </thead>    
+    <tbody>
+      <tr>
+        <td rowspan="2">Carlos</td>
+        <td rowspan="2">Gomez</td>
+        <td>26</td>
+        <td>correo</td>
+      </tr>
+      <tr>
+        <!-- <td>Carlos</td> -->
+        <!-- <td>Gomez</td> -->
+        <td>26</td>
+        <td>correo</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>Gomez</td>
+        <td>26</td>
+        <td>correo</td>
+      </tr>
+      <tt>Esta es la tabla</tt>
+    </tbody>
+  </table>
+  <h1>Tabla 2</h1>
+  <table>
+    <!-- table row -->
+    <tr>
+      <th>Name:</th>
+      <td>Bill Gates</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone:</th>
+      <td>55577854</td>
+    </tr>
+    <tr>
+      <td>55577855</td>
+    </tr>
+  </table>
+  <h1>Tabla 3 Ejercicio</h1>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">nombre y dueño</th>
+        <!-- <th colspan="2">dueño</th> -->
+        <th>raza</th>
+        <th>edad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <caption>Monthly savings</caption>
+      <tr>
+        <td>boby</td>
+        <td>- Jorge</td>
+        <td>pitbull</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>perro 2</td>
+        <td>- Juan</td>
+        <td>labrador</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+      <td>perro 2</td>
+      <td>- Juan</td>
+      <td>labrador</td>
+      <td>7</td>
+      </tr>
+    </tfoot>
+  </table>
+  <h1>Tabla 4 Ejercicio</h1>
+  <table>
+    <tr>
+      <th rowspan="2">nombre</th>
+      <td>boby</td>
+      <td>perro 2</td>
+    </tr>
+    <tr>
+      <!-- <th >dueño</th> -->
+      <td>Jorge</td>
+      <td>Juan</td>
+    </tr>
+    <tr>
+      <th>raza</th>
+      <td>pitbull</td>
+      <td>labrador</td>
+    </tr>
+    <tr>
+      <th>edad</th>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+  </table>
+  <h1>col group</h1>
+  <table>
+    <!--  sirve para cambiar los atributos de las columnas especificadas dentro del colgroup -->
+    <colgroup>
+      <col span="2" style="background-color:red">
+      <col style="background-color:yellow">
+    </colgroup>
+    <tr>
+      <th>ISBN</th>
+      <th>Title</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>3476896</td>
+      <td>My first HTML</td>
+      <td>$53</td>
+    </tr>
+    <tr>
+      <td>3476896</td>
+      <td>My first HTML</td>
+      <td>$53</td>
+    </tr>
+  </table>
 </body>
 </html>
