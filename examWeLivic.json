@@ -1,0 +1,61 @@
+{
+  "quizTitle": "React Quiz Component Demo",
+  "quizSynopsis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
+  "appLocale": {
+    "landingHeaderText": "<questionLength> Questions",
+    "question": "Question",
+    "startQuizBtn": "Start Quiz",
+    "resultFilterAll": "All",
+    "resultFilterCorrect": "Correct",
+    "resultFilterIncorrect": "Incorrect",
+    "nextQuestionBtn": "Next",
+    "resultPageHeaderText": "Haz completado el examen. You got <correctIndexLength> out of <questionLength> questions."
+  },
+  "questions": [
+    {
+      "questionType": "text",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "questionPic": "https://dummyimage.com/600x400/000/fff&text=X",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "question": "How can you access the state of a component from inside of a member function?",
+      "correctAnswer": "3",
+      "answerSelectionType": "single",
+      "point": "20",
+      "answers": [
+        "this.getState()",
+        "this.prototype.stateValue",
+        "this.state",
+        "this.values"
+      ],
+      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "questionType": "text",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "question": "ReactJS is developed by ___?",
+      "correctAnswer": "2",
+      "answerSelectionType": "single",
+      "point": "20",
+      "answers": [
+        "Google Engineers",
+        "Facebook Engineers"
+      ],
+      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "questionType": "text",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "question": "ReactJS is an MVC based framework?",
+      "correctAnswer": "2",
+      "answerSelectionType": "single",
+      "point": "10",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}

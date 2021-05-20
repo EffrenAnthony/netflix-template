@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .padre{
+    position: relative;
+    width: 1400px;
+    background-color: rgb(255, 179, 251);
+    display: flex;
+    justify-content: center;
+  }
+  .esfera{
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    z-index: 1;
+  }
+  .contenedor{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    width: 1000px;
+    background-color: rgb(209, 255, 179);
+  }
+  .vector{
+    position: absolute;
+    top: 250px;
+  }
+  /* .imagen{
+  } */
+</style>
+<body>
+  <div class="padre">
+    <div class='esfera'></div> 
+    <div class="contenedor">
+      <img src="./g1Kr4Ozfoac.png" alt="" class="imagen">
+      <img src="./Vector 1.png" alt="" class="vector">
+    </div>
+  </div>
+</body>
+</html>

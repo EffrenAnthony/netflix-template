@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style> 
+  *{
+    margin: 0px;
+  }
+  .container{
+    margin: 0px 0px 0px 0px;
+  }
+  .hero__column{
+    position: relative;
+    padding: 30px;
+  }
+  .imagen{
+    width:100%
+  }
+  .vector{
+    display: none
+  }
+  .header__section{
+    margin-top: 50px;
+  }
+  @media (min-width: 768px) {
+    .container{
+      margin: 0px 10% 0px 10%;
+    }
+    .header__section{
+    margin-top: 140px;
+    }
+    .hero__container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+    .vector{
+      width:100%;
+      position: absolute;
+      left: 150px;
+      top: -110px;
+      display: inline-block;
+    }
+  }
+  @media (min-width: 1200px) {
+    .vector{
+      width:100%;
+      position: absolute;
+      left: 150px;
+      top: -140px;
+      display: inline-block;
+    }
+  }
+</style>
+<body>
+  <div class="container header__section">
+    <section class="hero__container">
+      <div class='hero__column'>
+        <h1>Soluciones de comunicación con tu equipo de trabajo  con Zyrebox.</h1>
+      </div>
+      <div class='hero__column'>
+        <img src="./Vector 1.png" alt="" class="vector">
+        <img src="./g1Kr4Ozfoac.png" alt="" class="imagen">
+      </div>
+    </section>
+  </div>
+</body>
+</html>
