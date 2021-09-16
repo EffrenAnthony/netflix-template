@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    margin: 10px 300px;
+  }
+  .wraper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+  }
+  .child{
+    width:100%;
+    background-color: rgb(101, 5, 190);
+    height: 400px;
+  }
+  @media (max-width: 1200px){
+    body{
+    margin: 10px 50px;
+    }
+    .wraper{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px
+    }
+  }
+  @media (max-width: 780px){
+    body{
+    margin: 10px 5px;
+    }
+    .wraper{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px
+    }
+  }
+  .wraper2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-areas: 
+    'text1 img1 text2'
+    'img2 img2 img2';
+    gap: 15px;
+    /* grid-area: ; */
+  }
+  .content{
+    width: 100%;
+  }
+  .content1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(22, 121, 121);
+  }
+  #text1{
+    grid-area: text1;
+  }
+  #img1{
+    grid-area: img1;
+  }
+  #text2{
+    grid-area: text2;
+  }
+  #img2{
+    grid-area: img2;
+  }
+  @media (max-width: 780px){
+    .wraper2{
+      grid-template-columns: repeat(1, 1fr);
+      /* grid-template-rows: repeat(2, 1fr); */
+      grid-template-areas: 
+      'text1'
+      'img1'
+      'text2'
+      'img2';
+    }
+  }
+</style>
+<body>
+  <!-- <div class="wraper">
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div> -->
+  <div class="wraper2">
+    <div class="content" id='text1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime blanditiis veniam tenetur delectus cum repellat possimus accusantium, quam sed ea. Quasi maxime, laudantium consequatur facere vel eius illo labore iusto.</div>
+    <div class="content1" id='img1'></div>
+    <div class="content" id='text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates incidunt aliquam nam veniam vitae saepe dolores accusantium illo cumque. Aspernatur, fuga a ipsam corporis consequuntur ab! Voluptate facilis saepe aliquam.</div>
+    <div class="content1" id='img2'></div>
+  </div>
+</body>
+</html>

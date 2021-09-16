@@ -1,0 +1,24 @@
+{
+  "name": "netflixtemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EffrenAnthony/netflix-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EffrenAnthony/netflix-template/issues"
+  },
+  "homepage": "https://github.com/EffrenAnthony/netflix-template#readme",
+  "dependencies": {
+    "bitly": "^7.1.2",
+    "object-encrypter": "^0.1.3",
+    "simple-encryptor": "^4.0.0"
+  }
+}
